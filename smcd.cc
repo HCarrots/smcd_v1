@@ -46,7 +46,7 @@ int main(int argc,char **argv){
         // batch mode
         G4String command = "/control/execute ";
         G4String fileName = argv[1];
-        uiManager->ApplyCommgand(command + fileName);
+        uiManager->ApplyCommand(command + fileName);
       }
       else {
         // interactive mode
