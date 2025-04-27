@@ -1,0 +1,100 @@
+# ==============================================
+# Geant4 Macro File - Discrete Energy Spectrum
+# Based on provided data (energy[keV], probability)
+# ==============================================
+/run/initialize
+# Initialize GPS
+/gps/particle e-
+/gps/pos/type Point
+/gps/pos/centre 0 0 0 cm
+/gps/ang/type iso
+
+# Configure discrete energy spectrum
+/gps/ene/type Arb
+/gps/ene/diffspec 1
+/gps/hist/type arb
+
+# Energy [MeV] and Weight (probability normalized to 1)
+# Note: Converted keV to MeV by dividing by 1000
+/gps/hist/point 0.002297 0.019329
+/gps/hist/point 0.004249 0.019968
+/gps/hist/point 0.006172 0.020595
+/gps/hist/point 0.008094 0.021221
+/gps/hist/point 0.010046 0.021535
+/gps/hist/point 0.011968 0.021848
+/gps/hist/point 0.013891 0.022330
+/gps/hist/point 0.015813 0.022487
+/gps/hist/point 0.017765 0.022644
+/gps/hist/point 0.019687 0.022800
+/gps/hist/point 0.021610 0.022800
+/gps/hist/point 0.023562 0.022800
+/gps/hist/point 0.025484 0.022800
+/gps/hist/point 0.027406 0.022644
+/gps/hist/point 0.029358 0.022644
+/gps/hist/point 0.031281 0.022487
+/gps/hist/point 0.033203 0.022330
+/gps/hist/point 0.035155 0.022005
+/gps/hist/point 0.037077 0.021848
+/gps/hist/point 0.039000 0.021691
+/gps/hist/point 0.040686 0.021378
+/gps/hist/point 0.042608 0.021065
+/gps/hist/point 0.044530 0.020908
+/gps/hist/point 0.046482 0.020438
+/gps/hist/point 0.048405 0.020125
+/gps/hist/point 0.050327 0.019811
+/gps/hist/point 0.052279 0.019329
+/gps/hist/point 0.054201 0.019016
+/gps/hist/point 0.056124 0.018702
+/gps/hist/point 0.058075 0.018232
+/gps/hist/point 0.059998 0.017762
+/gps/hist/point 0.061920 0.017449
+/gps/hist/point 0.063843 0.016979
+/gps/hist/point 0.065795 0.016497
+/gps/hist/point 0.067717 0.016027
+/gps/hist/point 0.069639 0.015557
+/gps/hist/point 0.071591 0.015087
+/gps/hist/point 0.073514 0.014616
+/gps/hist/point 0.075436 0.014134
+/gps/hist/point 0.077388 0.013664
+/gps/hist/point 0.079310 0.013194
+/gps/hist/point 0.081233 0.012724
+/gps/hist/point 0.083184 0.012254
+/gps/hist/point 0.085107 0.011784
+/gps/hist/point 0.087029 0.011302
+/gps/hist/point 0.088952 0.010832
+/gps/hist/point 0.090903 0.010362
+/gps/hist/point 0.092826 0.009735
+/gps/hist/point 0.094748 0.009422
+/gps/hist/point 0.096700 0.008783
+/gps/hist/point 0.098622 0.008313
+/gps/hist/point 0.100545 0.007843
+/gps/hist/point 0.102497 0.007373
+/gps/hist/point 0.104419 0.006903
+/gps/hist/point 0.106342 0.006589
+/gps/hist/point 0.108293 0.006264
+/gps/hist/point 0.110216 0.005794
+/gps/hist/point 0.112138 0.005324
+/gps/hist/point 0.114061 0.004854
+/gps/hist/point 0.116012 0.004384
+/gps/hist/point 0.117935 0.004070
+/gps/hist/point 0.119857 0.003757
+/gps/hist/point 0.121809 0.003432
+/gps/hist/point 0.123731 0.003118
+/gps/hist/point 0.125654 0.002805
+/gps/hist/point 0.127606 0.002491
+/gps/hist/point 0.129528 0.002178
+/gps/hist/point 0.131450 0.001865
+/gps/hist/point 0.133402 0.001551
+/gps/hist/point 0.135325 0.001238
+/gps/hist/point 0.137632 0.000913
+/gps/hist/point 0.139584 0.000913
+/gps/hist/point 0.141506 0.000756
+/gps/hist/point 0.143428 0.000442
+/gps/hist/point 0.145351 0.000442
+/gps/hist/point 0.146918 0.000286
+/gps/hist/point 0.148840 0.000129
+
+/gps/hist/inter Spline 
+# Initialize and run simulation
+
+/run/beamOn 100000
