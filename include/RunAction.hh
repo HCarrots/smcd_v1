@@ -1,21 +1,21 @@
-#ifndef B2RunAction_HH
-#define B2RunAction_HH
- 
+// RunAction.hh
+#ifndef RUN_ACTION_HH
+#define RUN_ACTION_HH
 #include "G4UserRunAction.hh"
- 
-class G4Run;
-
-/// Run action class
- 
+#include "SingleParticleSD.hh"
 class RunAction : public G4UserRunAction
 {
-  public:
+public:
     RunAction();
-    ~RunAction() override = default;
- 
-    void BeginOfRunAction(const G4Run* run) override;
-    void EndOfRunAction(const G4Run* run) override;
+    virtual ~RunAction();
+    RunAction(SingleParticleSD* sd);
+    virtual void BeginOfRunAction(const G4Run*);
+    virtual void EndOfRunAction(const G4Run*);
+    
+    void SetPrimaryEnergy(G4double energy) { fPrimaryEnergy = energy; }
+    
+private:
+    G4double fPrimaryEnergy;
+    SingleParticleSD* fSD = nullptr;
 };
-
- 
 #endif

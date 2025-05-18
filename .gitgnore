@@ -32,4 +32,8 @@
 *.app
 
 .vscode/
+*.json
 build/
+cmake-build-*/
+.vscode/
+.idea/

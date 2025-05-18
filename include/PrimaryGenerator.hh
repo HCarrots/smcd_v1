@@ -8,19 +8,21 @@
 #include "G4ParticleTable.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4VUserPrimaryGeneratorAction.hh"
-
-class PrimaryGenerator : public G4VUserPrimaryGeneratorAction {
- private:
+#include "RunAction.hh"
+// class RunAction;
+class PrimaryGenerator : public G4VUserPrimaryGeneratorAction
+{
+private:
   G4ParticleGun *particleGun;
   G4ParticleTable *particleTable;
   G4ParticleDefinition *particleDefinition;
   G4GeneralParticleSource *fGPS;
+  RunAction *fRunAction;
 
- public:
+public:
   PrimaryGenerator();
   ~PrimaryGenerator();
 
-
-  void GeneratePrimaries(G4Event *) override;
+  virtual void GeneratePrimaries(G4Event *);
 };
 #endif

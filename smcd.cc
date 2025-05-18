@@ -8,64 +8,65 @@
 #include "G4UIExecutive.hh"
 #include "G4VisExecutive.hh"
 
-//#include "PhysicsList.hh"
+// #include "PhysicsList.hh"
 #include "QBBC.hh"
 
 #include "DetectorConstruction.hh"
 #include "ActionInitialization.hh"
 
-int main(int argc,char **argv){
-    
-    //G4UIExecutive *ui = new G4UIExecutive(argc,argv);
-    G4UIExecutive* ui = nullptr;
-    if (argc == 1) {
-      ui = new G4UIExecutive(argc, argv);
-    }
+int main(int argc, char **argv)
+{
 
-    #ifdef G4MULTITHREADED
-    G4MTRunManager *runManager = new G4MTRunManager;
-    #else
-    G4RunManager *runManager = new G4RunManager;
-    #endif
+  // G4UIExecutive *ui = new G4UIExecutive(argc,argv);
+  G4UIExecutive *ui = nullptr;
+  if (argc == 1)
+  {
+    ui = new G4UIExecutive(argc, argv);
+  }
 
-    //physics process
-    auto physicsList = new QBBC(0);
-    
-    runManager->SetUserInitialization(physicsList);
-    //detector geometry
-    runManager->SetUserInitialization(new DetectorConstruction());
-    //primary generator
-    runManager->SetUserInitialization(new ActionInitialization());
+#ifndef G4MULTITHREADED
+  G4MTRunManager *runManager = new G4MTRunManager;
+#else
+  G4RunManager *runManager = new G4RunManager;
+#endif
 
-    
+  // physics process
+  auto physicsList = new QBBC(0);
 
-    G4VisManager *visManager = new G4VisExecutive("quiet");
-    visManager->Initialize();
+  runManager->SetUserInitialization(physicsList);
+  // detector geometry
+  runManager->SetUserInitialization(new DetectorConstruction());
+  // primary generator
+  runManager->SetUserInitialization(new ActionInitialization());
 
-    G4UImanager *uiManager = G4UImanager::GetUIpointer();
+  G4VisManager *visManager = new G4VisExecutive("Quiet");
+  visManager->Initialize();
 
-    //uiManager->ApplyCommand("/control/execute vis.mac");
-    
-    //ui->SessionStart();
-    //delete ui;
-    if (!ui) {
-        // batch mode
-        G4String command = "/control/execute ";
-        G4String fileName = argv[1];
-        uiManager->ApplyCommand(command + fileName);
-      }
-      else {
-        // interactive mode
-        uiManager->ApplyCommand("/control/execute vis.mac");
-        //if (ui->IsGUI()) {
-        //  UImanager->ApplyCommand("/control/execute gui.mac");
-        //}
-        ui->SessionStart();
-        delete ui;
-      }
+  G4UImanager *uiManager = G4UImanager::GetUIpointer();
 
-    delete visManager;
+  // uiManager->ApplyCommand("/control/execute vis.mac");
 
-    return 0;
+  // ui->SessionStart();
+  // delete ui;
+  if (!ui)
+  {
+    // batch mode
+    G4String command = "/control/execute ";
+    G4String fileName = argv[1];
+    uiManager->ApplyCommand(command + fileName);
+  }
+  else
+  {
+    // interactive mode
+    uiManager->ApplyCommand("/control/execute vis.mac");
+    // if (ui->IsGUI()) {
+    //   UImanager->ApplyCommand("/control/execute gui.mac");
+    // }
+    ui->SessionStart();
+    delete ui;
+  }
 
+  delete visManager;
+
+  return 0;
 }

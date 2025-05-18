@@ -4,6 +4,9 @@ set(CMAKE_CXX_STANDARD 17)
 
 find_package(Geant4 REQUIRED ui_all vis_all)
 
+find_package(ROOT REQUIRED)
+include_directories(${ROOT_INCLUDE_DIRS})
+
 include(${Geant4_USE_FILE})
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
@@ -17,6 +20,6 @@ file(COPY ${MACROS} DESTINATION ${PROJECT_BINARY_DIR})
 #aux_source_directory(${PROJECT_SOURCE_DIR}/include HEADERS)
 
 add_executable(smcd smcd.cc ${sources} ${headers})
-target_link_libraries(smcd ${Geant4_LIBRARIES})
+target_link_libraries(smcd ${Geant4_LIBRARIES} ${ROOT_LIBRARIES})
 
 add_custom_target(SimCD DEPENDS smcd)
