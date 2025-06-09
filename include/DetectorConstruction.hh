@@ -24,7 +24,7 @@
 #include "G4PSEnergyDeposit.hh"
 #include "G4PSNofSecondary.hh"
 #include "G4SDParticleFilter.hh"
-#include "SingleParticleSD.hh"
+
 
 class DetectorConstruction: public G4VUserDetectorConstruction {
 
@@ -35,7 +35,7 @@ public:
     G4VPhysicalVolume *Construct() override;
     G4LogicalVolume* GetScoringVolume() const { return fScoringVolume; }
 
-    void ConstructSDandField();
+    
 
 private:
     G4LogicalVolume* fScoringVolume = nullptr;

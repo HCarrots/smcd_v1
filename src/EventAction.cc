@@ -4,7 +4,7 @@
 #include "G4TrajectoryContainer.hh"
 #include "G4ios.hh"
 #include "G4SDManager.hh"
-#include "RadialEnergyDepositSD.hh"
+
 
 void EventAction::BeginOfEventAction(const G4Event*) {}
  

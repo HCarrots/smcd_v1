@@ -1,8 +1,9 @@
 #include "PhysicsList.hh"
 
+
 PhysicsList::PhysicsList(){
 
-    //RegisterPhysics(new QBBC());
+    RegisterPhysics(new QBBC());
 
 }
 

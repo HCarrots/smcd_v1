@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/hushiqi/work_space/Geant4/smcd_v1/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OI -DG4VIS_USE_OIQT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DG4VIS_USE_VTK -DG4VIS_USE_VTK_QT -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/hushiqi/work_space/Geant4/smcd_v1/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/smcd.dir/smcd.cc.o -c /home/hushiqi/work_space/Geant4/smcd_v1/smcd.cc",
+  "file": "/home/hushiqi/work_space/Geant4/smcd_v1/smcd.cc",
+  "output": "CMakeFiles/smcd.dir/smcd.cc.o"
+},
+{
+  "directory": "/home/hushiqi/work_space/Geant4/smcd_v1/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OI -DG4VIS_USE_OIQT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DG4VIS_USE_VTK -DG4VIS_USE_VTK_QT -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/hushiqi/work_space/Geant4/smcd_v1/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/smcd.dir/src/ActionInitialization.cc.o -c /home/hushiqi/work_space/Geant4/smcd_v1/src/ActionInitialization.cc",
+  "file": "/home/hushiqi/work_space/Geant4/smcd_v1/src/ActionInitialization.cc",
+  "output": "CMakeFiles/smcd.dir/src/ActionInitialization.cc.o"
+},
+{
+  "directory": "/home/hushiqi/work_space/Geant4/smcd_v1/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OI -DG4VIS_USE_OIQT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DG4VIS_USE_VTK -DG4VIS_USE_VTK_QT -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/hushiqi/work_space/Geant4/smcd_v1/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o -c /home/hushiqi/work_space/Geant4/smcd_v1/src/DetectorConstruction.cc",
+  "file": "/home/hushiqi/work_space/Geant4/smcd_v1/src/DetectorConstruction.cc",
+  "output": "CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o"
+},
+{
+  "directory": "/home/hushiqi/work_space/Geant4/smcd_v1/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OI -DG4VIS_USE_OIQT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DG4VIS_USE_VTK -DG4VIS_USE_VTK_QT -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/hushiqi/work_space/Geant4/smcd_v1/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/smcd.dir/src/EventAction.cc.o -c /home/hushiqi/work_space/Geant4/smcd_v1/src/EventAction.cc",
+  "file": "/home/hushiqi/work_space/Geant4/smcd_v1/src/EventAction.cc",
+  "output": "CMakeFiles/smcd.dir/src/EventAction.cc.o"
+},
+{
+  "directory": "/home/hushiqi/work_space/Geant4/smcd_v1/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OI -DG4VIS_USE_OIQT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DG4VIS_USE_VTK -DG4VIS_USE_VTK_QT -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/hushiqi/work_space/Geant4/smcd_v1/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/smcd.dir/src/PhysicsList.cc.o -c /home/hushiqi/work_space/Geant4/smcd_v1/src/PhysicsList.cc",
+  "file": "/home/hushiqi/work_space/Geant4/smcd_v1/src/PhysicsList.cc",
+  "output": "CMakeFiles/smcd.dir/src/PhysicsList.cc.o"
+},
+{
+  "directory": "/home/hushiqi/work_space/Geant4/smcd_v1/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OI -DG4VIS_USE_OIQT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DG4VIS_USE_VTK -DG4VIS_USE_VTK_QT -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/hushiqi/work_space/Geant4/smcd_v1/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o -c /home/hushiqi/work_space/Geant4/smcd_v1/src/PrimaryGenertor.cc",
+  "file": "/home/hushiqi/work_space/Geant4/smcd_v1/src/PrimaryGenertor.cc",
+  "output": "CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o"
+},
+{
+  "directory": "/home/hushiqi/work_space/Geant4/smcd_v1/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OI -DG4VIS_USE_OIQT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DG4VIS_USE_VTK -DG4VIS_USE_VTK_QT -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/hushiqi/work_space/Geant4/smcd_v1/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/smcd.dir/src/RunAction.cc.o -c /home/hushiqi/work_space/Geant4/smcd_v1/src/RunAction.cc",
+  "file": "/home/hushiqi/work_space/Geant4/smcd_v1/src/RunAction.cc",
+  "output": "CMakeFiles/smcd.dir/src/RunAction.cc.o"
+},
+{
+  "directory": "/home/hushiqi/work_space/Geant4/smcd_v1/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OI -DG4VIS_USE_OIQT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DG4VIS_USE_VTK -DG4VIS_USE_VTK_QT -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/hushiqi/work_space/Geant4/smcd_v1/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/smcd.dir/src/SteppingAction.cc.o -c /home/hushiqi/work_space/Geant4/smcd_v1/src/SteppingAction.cc",
+  "file": "/home/hushiqi/work_space/Geant4/smcd_v1/src/SteppingAction.cc",
+  "output": "CMakeFiles/smcd.dir/src/SteppingAction.cc.o"
+}
+]

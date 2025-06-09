@@ -1,6 +1,4 @@
 #include "DetectorConstruction.hh"
-#include "RadialEnergyDepositSD.hh"
-#include "SingleParticleSD.hh"
 DetectorConstruction::DetectorConstruction() {
 
 };
@@ -58,17 +56,4 @@ G4VPhysicalVolume *DetectorConstruction::Construct()
     logicsic->SetSensitiveDetector(radialSD);*/
 
     return physWorld;
-}
-
-void DetectorConstruction::ConstructSDandField()
-{
-    G4SDManager *SDman = G4SDManager::GetSDMpointer();
-
-    if (!SDman->FindSensitiveDetector("SingleParticleSD", false))
-    {
-        G4VSensitiveDetector *radialSD =
-            new SingleParticleSD("SingleParticleSD", 100, 11 * mm);
-        SDman->AddNewDetector(radialSD);
-        fScoringVolume->SetSensitiveDetector(radialSD);
-    }
 }

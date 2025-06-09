@@ -28,7 +28,7 @@ void PrimaryGenerator::GeneratePrimaries(G4Event *event){
 
 PrimaryGenerator::PrimaryGenerator() : G4VUserPrimaryGeneratorAction()
 {
-    particleGun = new G4ParticleGun(1);
+    /*particleGun = new G4ParticleGun(1);
     
     G4String partical_name = "e-";
     particleDefinition = particleTable->FindParticle(partical_name);
@@ -41,7 +41,7 @@ PrimaryGenerator::PrimaryGenerator() : G4VUserPrimaryGeneratorAction()
 
     G4double GunpX = -1.,GunpY = 0.,GunpZ = 0.;
     G4ThreeVector Gunp(GunpX,GunpY,GunpZ);
-    particleGun->SetParticleMomentumDirection(Gunp);
+    particleGun->SetParticleMomentumDirection(Gunp);*/
 
     fGPS = new G4GeneralParticleSource;
 
@@ -51,12 +51,12 @@ PrimaryGenerator::PrimaryGenerator() : G4VUserPrimaryGeneratorAction()
 void PrimaryGenerator::GeneratePrimaries(G4Event *evt)
 {
 
-    particleGun->GeneratePrimaryVertex(evt);
+    //particleGun->GeneratePrimaryVertex(evt);
     fGPS->GeneratePrimaryVertex(evt);
 }
 
 PrimaryGenerator::~PrimaryGenerator()
 {
-    delete particleGun;
+    //delete particleGun;
     delete fGPS;
 }
