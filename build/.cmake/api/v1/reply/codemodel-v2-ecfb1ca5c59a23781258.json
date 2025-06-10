@@ -6,10 +6,10 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.8.12"
+						"string" : "3.8"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SimCD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SimCD-Debug-82a1a81ff078362fa52e.json",
+					"jsonFile" : "target-SimCD-82a1a81ff078362fa52e.json",
 					"name" : "SimCD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "smcd::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-smcd-Debug-53584084d465d13afcfe.json",
+					"jsonFile" : "target-smcd-6a1b5d3421ffcbbe8d02.json",
 					"name" : "smcd",
 					"projectIndex" : 0
 				}
@@ -58,12 +58,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/hushiqi/work_space/Geant4/smcd_v1/build",
-		"source" : "/home/hushiqi/work_space/Geant4/smcd_v1"
+		"build" : "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build",
+		"source" : "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }

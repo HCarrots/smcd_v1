@@ -1,6 +1,6 @@
 /run/initialize
 
-/vis/open OGLIQt
+/vis/open OGLIQt 
 
 /vis/viewer/set/viewpointVector 1 1 1
 /vis/viewer/set/autoRefresh true
@@ -112,4 +112,4 @@
 /gps/hist/inter Spline 
 # Initialize and run simulation
 #/run/initialize
-#/run/beamOn 1000
+#/run/beamOn 100000

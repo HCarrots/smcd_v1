@@ -1,4 +1,4 @@
-/home/hushiqi/work_space/Geant4/smcd_v1/build/CMakeFiles/smcd.dir
-/home/hushiqi/work_space/Geant4/smcd_v1/build/CMakeFiles/SimCD.dir
-/home/hushiqi/work_space/Geant4/smcd_v1/build/CMakeFiles/edit_cache.dir
-/home/hushiqi/work_space/Geant4/smcd_v1/build/CMakeFiles/rebuild_cache.dir
+/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build/CMakeFiles/smcd.dir
+/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build/CMakeFiles/SimCD.dir
+/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build/CMakeFiles/edit_cache.dir
+/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build/CMakeFiles/rebuild_cache.dir
