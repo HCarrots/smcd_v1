@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SimCD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SimCD-82a1a81ff078362fa52e.json",
+					"jsonFile" : "target-SimCD-Debug-82a1a81ff078362fa52e.json",
 					"name" : "SimCD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "smcd::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-smcd-6a1b5d3421ffcbbe8d02.json",
+					"jsonFile" : "target-smcd-Debug-728d688b17c225fe7acb.json",
 					"name" : "smcd",
 					"projectIndex" : 0
 				}

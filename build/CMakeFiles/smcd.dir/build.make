@@ -73,113 +73,113 @@ CMakeFiles/smcd.dir/smcd.cc.o: CMakeFiles/smcd.dir/flags.make
 CMakeFiles/smcd.dir/smcd.cc.o: /home/qiqi/Vs\ Code/Geant_Project/Study-master/smcd_v1/smcd.cc
 CMakeFiles/smcd.dir/smcd.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/smcd.dir/smcd.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/smcd.cc.o -MF CMakeFiles/smcd.dir/smcd.cc.o.d -o CMakeFiles/smcd.dir/smcd.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/smcd.cc"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/smcd.cc.o -MF CMakeFiles/smcd.dir/smcd.cc.o.d -o CMakeFiles/smcd.dir/smcd.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/smcd.cc"
 
 CMakeFiles/smcd.dir/smcd.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smcd.dir/smcd.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/smcd.cc" > CMakeFiles/smcd.dir/smcd.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/smcd.cc" > CMakeFiles/smcd.dir/smcd.cc.i
 
 CMakeFiles/smcd.dir/smcd.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/smcd.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/smcd.cc" -o CMakeFiles/smcd.dir/smcd.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/smcd.cc" -o CMakeFiles/smcd.dir/smcd.cc.s
 
 CMakeFiles/smcd.dir/src/ActionInitialization.cc.o: CMakeFiles/smcd.dir/flags.make
 CMakeFiles/smcd.dir/src/ActionInitialization.cc.o: /home/qiqi/Vs\ Code/Geant_Project/Study-master/smcd_v1/src/ActionInitialization.cc
 CMakeFiles/smcd.dir/src/ActionInitialization.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/smcd.dir/src/ActionInitialization.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/ActionInitialization.cc.o -MF CMakeFiles/smcd.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/smcd.dir/src/ActionInitialization.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/ActionInitialization.cc"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/ActionInitialization.cc.o -MF CMakeFiles/smcd.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/smcd.dir/src/ActionInitialization.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/ActionInitialization.cc"
 
 CMakeFiles/smcd.dir/src/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smcd.dir/src/ActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/ActionInitialization.cc" > CMakeFiles/smcd.dir/src/ActionInitialization.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/ActionInitialization.cc" > CMakeFiles/smcd.dir/src/ActionInitialization.cc.i
 
 CMakeFiles/smcd.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/ActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/ActionInitialization.cc" -o CMakeFiles/smcd.dir/src/ActionInitialization.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/ActionInitialization.cc" -o CMakeFiles/smcd.dir/src/ActionInitialization.cc.s
 
 CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: CMakeFiles/smcd.dir/flags.make
 CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: /home/qiqi/Vs\ Code/Geant_Project/Study-master/smcd_v1/src/DetectorConstruction.cc
 CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/DetectorConstruction.cc"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/DetectorConstruction.cc"
 
 CMakeFiles/smcd.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smcd.dir/src/DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/DetectorConstruction.cc" > CMakeFiles/smcd.dir/src/DetectorConstruction.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/DetectorConstruction.cc" > CMakeFiles/smcd.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/smcd.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/DetectorConstruction.cc" -o CMakeFiles/smcd.dir/src/DetectorConstruction.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/DetectorConstruction.cc" -o CMakeFiles/smcd.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/smcd.dir/src/EventAction.cc.o: CMakeFiles/smcd.dir/flags.make
 CMakeFiles/smcd.dir/src/EventAction.cc.o: /home/qiqi/Vs\ Code/Geant_Project/Study-master/smcd_v1/src/EventAction.cc
 CMakeFiles/smcd.dir/src/EventAction.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/smcd.dir/src/EventAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/EventAction.cc.o -MF CMakeFiles/smcd.dir/src/EventAction.cc.o.d -o CMakeFiles/smcd.dir/src/EventAction.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/EventAction.cc"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/EventAction.cc.o -MF CMakeFiles/smcd.dir/src/EventAction.cc.o.d -o CMakeFiles/smcd.dir/src/EventAction.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/EventAction.cc"
 
 CMakeFiles/smcd.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smcd.dir/src/EventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/EventAction.cc" > CMakeFiles/smcd.dir/src/EventAction.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/EventAction.cc" > CMakeFiles/smcd.dir/src/EventAction.cc.i
 
 CMakeFiles/smcd.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/EventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/EventAction.cc" -o CMakeFiles/smcd.dir/src/EventAction.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/EventAction.cc" -o CMakeFiles/smcd.dir/src/EventAction.cc.s
 
 CMakeFiles/smcd.dir/src/PhysicsList.cc.o: CMakeFiles/smcd.dir/flags.make
 CMakeFiles/smcd.dir/src/PhysicsList.cc.o: /home/qiqi/Vs\ Code/Geant_Project/Study-master/smcd_v1/src/PhysicsList.cc
 CMakeFiles/smcd.dir/src/PhysicsList.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/smcd.dir/src/PhysicsList.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/PhysicsList.cc.o -MF CMakeFiles/smcd.dir/src/PhysicsList.cc.o.d -o CMakeFiles/smcd.dir/src/PhysicsList.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/PhysicsList.cc"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/PhysicsList.cc.o -MF CMakeFiles/smcd.dir/src/PhysicsList.cc.o.d -o CMakeFiles/smcd.dir/src/PhysicsList.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/PhysicsList.cc"
 
 CMakeFiles/smcd.dir/src/PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smcd.dir/src/PhysicsList.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/PhysicsList.cc" > CMakeFiles/smcd.dir/src/PhysicsList.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/PhysicsList.cc" > CMakeFiles/smcd.dir/src/PhysicsList.cc.i
 
 CMakeFiles/smcd.dir/src/PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/PhysicsList.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/PhysicsList.cc" -o CMakeFiles/smcd.dir/src/PhysicsList.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/PhysicsList.cc" -o CMakeFiles/smcd.dir/src/PhysicsList.cc.s
 
 CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o: CMakeFiles/smcd.dir/flags.make
 CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o: /home/qiqi/Vs\ Code/Geant_Project/Study-master/smcd_v1/src/PrimaryGenertor.cc
 CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o -MF CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o.d -o CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/PrimaryGenertor.cc"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o -MF CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o.d -o CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/PrimaryGenertor.cc"
 
 CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/PrimaryGenertor.cc" > CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/PrimaryGenertor.cc" > CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.i
 
 CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/PrimaryGenertor.cc" -o CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/PrimaryGenertor.cc" -o CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.s
 
 CMakeFiles/smcd.dir/src/RunAction.cc.o: CMakeFiles/smcd.dir/flags.make
 CMakeFiles/smcd.dir/src/RunAction.cc.o: /home/qiqi/Vs\ Code/Geant_Project/Study-master/smcd_v1/src/RunAction.cc
 CMakeFiles/smcd.dir/src/RunAction.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/smcd.dir/src/RunAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/RunAction.cc.o -MF CMakeFiles/smcd.dir/src/RunAction.cc.o.d -o CMakeFiles/smcd.dir/src/RunAction.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/RunAction.cc"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/RunAction.cc.o -MF CMakeFiles/smcd.dir/src/RunAction.cc.o.d -o CMakeFiles/smcd.dir/src/RunAction.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/RunAction.cc"
 
 CMakeFiles/smcd.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smcd.dir/src/RunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/RunAction.cc" > CMakeFiles/smcd.dir/src/RunAction.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/RunAction.cc" > CMakeFiles/smcd.dir/src/RunAction.cc.i
 
 CMakeFiles/smcd.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/RunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/RunAction.cc" -o CMakeFiles/smcd.dir/src/RunAction.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/RunAction.cc" -o CMakeFiles/smcd.dir/src/RunAction.cc.s
 
 CMakeFiles/smcd.dir/src/SteppingAction.cc.o: CMakeFiles/smcd.dir/flags.make
 CMakeFiles/smcd.dir/src/SteppingAction.cc.o: /home/qiqi/Vs\ Code/Geant_Project/Study-master/smcd_v1/src/SteppingAction.cc
 CMakeFiles/smcd.dir/src/SteppingAction.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/smcd.dir/src/SteppingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/SteppingAction.cc.o -MF CMakeFiles/smcd.dir/src/SteppingAction.cc.o.d -o CMakeFiles/smcd.dir/src/SteppingAction.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/SteppingAction.cc"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/SteppingAction.cc.o -MF CMakeFiles/smcd.dir/src/SteppingAction.cc.o.d -o CMakeFiles/smcd.dir/src/SteppingAction.cc.o -c "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/SteppingAction.cc"
 
 CMakeFiles/smcd.dir/src/SteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smcd.dir/src/SteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/SteppingAction.cc" > CMakeFiles/smcd.dir/src/SteppingAction.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/SteppingAction.cc" > CMakeFiles/smcd.dir/src/SteppingAction.cc.i
 
 CMakeFiles/smcd.dir/src/SteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/SteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/SteppingAction.cc" -o CMakeFiles/smcd.dir/src/SteppingAction.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/qiqi/Vs Code/Geant_Project/Study-master/smcd_v1/src/SteppingAction.cc" -o CMakeFiles/smcd.dir/src/SteppingAction.cc.s
 
 # Object files for target smcd
 smcd_OBJECTS = \
